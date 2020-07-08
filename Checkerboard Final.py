@@ -5,16 +5,17 @@ import time
 win = psychopy.visual.Window(
     size=[640, 640],color = -1, units="pix",fullscr=False
 )
+#The window on which the stimulus will appear
 
 
-n = 200 # total number of tiles
+n = 200 #total number of tiles
 
 tile_xys = []
 tile2_xys = []
 
 alternate = -1
 
-#stimA- first checkerboard
+#stimA- first checkerboard/chessboard
 
 for i in range(0,20):
 	for j in range(0,10):
@@ -33,7 +34,7 @@ stimA = psychopy.visual.ElementArrayStim(
 )
 
 
-#stimB- second checkerboard
+#stimB- second checkerboard/chessboard
 
 for i in range(0,20):
 	for j in range(0,10):
@@ -54,7 +55,6 @@ stimB = psychopy.visual.ElementArrayStim(
 t=0.2; # time for delay to adjust frequency between stims A and B
 
 #to flip between stimA and stimB
-
 while not psychopy.event.getKeys():
 	stimA.draw()
 	win.flip()
