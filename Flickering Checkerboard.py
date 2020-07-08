@@ -10,8 +10,8 @@ win = psychopy.visual.Window(
 
 n = 200 #total number of tiles
 
-tile_xys = []
-tile2_xys = []
+tile2_xys = []  #for StimA
+tile_xys = [] #for StimB
 
 alternate = -1
 
