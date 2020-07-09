@@ -4,7 +4,7 @@ import psychopy.event
 win = psychopy.visual.Window(
     size=[640, 640],color = -0.6, units="pix",fullscr=False
 )
-#The window on which the stimulus will appear
+#The window of size 640,640 on which the stimulus will appear
 
 n = 200 #total number of tiles
 
@@ -51,7 +51,7 @@ stimB = psychopy.visual.ElementArrayStim(
 )
 
 
-frequency =10
+frequency =10 #in Hz
 #will only work for factors of 60 (1,2,3,4,5,6,10,12,15,20,30,(NOT 60)) - monitor rate is 60Hz
 
 
