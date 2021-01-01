@@ -1,1 +1,1 @@
-# BCI-Project
+# BCI-SSVEP-utils
